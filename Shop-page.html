@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice-Cream</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="Ice-cream.css">
+</head>
+
+<body>
+    <!-- ================= TOP BAR ================= -->
+
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- LEFT SIDE -->
+                <div class="col-lg-8">
+                    <div class="top-left">
+                        <!-- PHONE -->
+                        <span>
+                            <i class="fa-solid fa-phone"></i>
+                            +44 02145-56458
+                        </span>
+
+                        <!-- LOCATION -->
+                        <span>
+                            <i class="fa-solid fa-location-dot"></i>
+                            North Western Europe
+                        </span>
+
+                        <!-- EMAIL -->
+                        <span>
+                            <i class="fa-regular fa-envelope"></i>
+                            @mail.co.uk
+                        </span>
+                    </div>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="col-lg-4">
+
+                    <div class="top-right">
+
+                        <!-- LANGUAGE BUTTON -->
+
+                        <div class="language-box">
+
+                            <button type="button" class="language-btn" id="languageBtn">
+
+                                <span>🇬🇧</span>
+                                English
+
+                                <i class="fa-solid fa-chevron-down"></i>
+
+                            </button>
+
+                            <div class="language-menu" id="languageMenu">
+
+                                <button type="button">
+                                    🇬🇧 English
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- DIVIDER -->
+                        <span class="divider"></span>
+
+                        <!-- SOCIAL ICONS -->
+
+                        <a href="facebook.html" target="_blank" class="social-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="X-twitter.html" target="_blank" class="social-link">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+
+                        <a href="linkedin.html" target="_blank" class="social-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="instgram.html" target="_blank" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ================= NAVIGATION BAR ================= -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+
+            <!-- LOGO -->
+
+            <a class="navbar-brand" href="home.html">
+                <img src="./Assets/Arun logo_flg.jpg" height="250" alt="Arun Ice-cream">
+                <span>ARUN ICE-Cream</span>
+            </a>
+
+
+            <!-- MOBILE BUTTON -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <!-- MENU -->
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="home.html">
+                            Home
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" target="_blank">
+                            About
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shop.html" target="_blank">
+                            Shop
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="flavours.html" target="_blank">
+                            Flavours
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="special.html" target="_blank">
+                            Special
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Blogs.html" target="_blank">
+                            Blogs
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" target="_blank">
+                            Contact
+                        </a>
+                    </li>
+
+
+                    <!-- BUTTON -->
+
+                    <li class="nav-item ms-lg-3">
+                        <button type="button" class="order-btn" id="orderBtn">
+                            <a class="nav-link" href="Order.html" target="_blank">
+                                Order Now
+                            </a>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="home" class="hero-section">
+        <div id="iceCreamSlider" class="carousel slide" data-bs-ride="carousel">
+            <!-- SLIDER INDICATORS -->
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="iceCreamSlider.html" data-bs-slide-to="0" class="active">
+                </button>
+
+                <button type="button" data-bs-target="iceCreamSlider.html" data-bs-slide-to="1">
+                </button>
+
+                <button type="button" data-bs-target="iceCreamSlider.html" data-bs-slide-to="2">
+                </button>
+
+            </div>
+
+
+
+            <!-- SLIDES -->
+
+            <div class="carousel-inner">
+                <!-- SLIDE 1 -->
+
+                <div class="carousel-item active">
+
+                    <img src="./Assets/Chocolate Ice Cream_flg.jpg" class="d-block w-100" alt="Chocolate Ice Cream">
+                    <div class="carousel-caption">
+
+                        <span>
+                            WELCOME TO SWEET CREAM
+                        </span>
+
+                        <h1>
+                            Delicious Ice Cream
+                        </h1>
+
+                        <p>
+                            Taste the happiness in every scoop.
+                        </p>
+
+                        <button type="button" class="hero-btn" onclick="showMessage()">
+                            Explore Flavours
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <!-- SLIDE 2 -->
+
+                <div class="carousel-item">
+                    <img src="./Assets/Strawberry Ice Cream_flg.jpg" class="d-block w-100" alt="Strawberry Ice Cream">
+                    <div class="carousel-caption">
+                        <span>
+                            FRESH & CREAMY
+                        </span>
+
+                        <h1>
+                            Strawberry Delight
+                        </h1>
+
+                        <p>
+                            Fresh strawberry flavour
+                            made with love.
+                        </p>
+
+                        <button type="button" class="hero-btn">
+                            View Flavours
+                        </button>
+                    </div>
+                </div>
+
+                <!-- SLIDE 3 -->
+
+                <div class="carousel-item">
+                    <img src="./Assets/Vanilla Ice Cream_flg.jpg" class="d-block w-100" alt="Vanilla Ice Cream">
+                    <div class="carousel-caption">
+
+                        <span>
+                            SPECIAL OFFER
+                        </span>
+
+                        <h1>
+                            Sweet Summer Offer
+                        </h1>
+
+                        <p>
+                            Enjoy delicious ice cream
+                            with your family.
+                        </p>
+
+                        <button type="button" class="hero-btn">
+                            Shop Now
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- PREVIOUS -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#iceCreamSlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon">
+                </span>
+            </button>
+
+
+            <!-- NEXT -->
+            <button class="carousel-control-next" type="button" data-bs-target="#iceCreamSlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon">
+                </span>
+            </button>
+        </div>
+    </section>
+
+    
+    <!-- ================= SHOP SECTION ================= -->
+    <section class="shop-hero">
+        <div class="container text-center">
+            <span>
+                SWEET CREAM SHOP
+            </span>
+
+            <h1>
+                Delicious Ice Cream
+            </h1>
+
+            <p>
+                Choose your favourite flavour
+                and enjoy every scoop.
+            </p>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <!-- ================= SHOP SECTION ================= -->
+    <section class="shop-section">
+        <div class="container">
+
+
+            <!-- TITLE -->
+            <div class="text-center shop-heading">
+                <span class="section-title">
+                    OUR SHOP
+                </span>
+
+                <h2>
+                    Choose Your Favourite
+                </h2>
+
+                <p>
+                    Fresh, creamy and delicious ice cream
+                    made with love.
+                </p>
+            </div>
+
+
+
+            <!-- SEARCH + FILTER -->
+            <div class="shop-controls">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="Search ice cream...">
+                </div>
+
+
+                <div class="filter-buttons">
+                    <button type="button" class="filter-btn active" data-category="all">
+                        All
+                    </button>
+
+                    <button type="button" class="filter-btn" data-category="chocolate">
+                        Chocolate
+                    </button>
+
+                    <button type="button" class="filter-btn" data-category="fruit">
+                        Fruit
+                    </button>
+
+                    <button type="button" class="filter-btn" data-category="special">
+                        Special
+                    </button>
+                </div>
+            </div>
+
+            <!-- Products -->
+            <div class="row g-4" id="productContainer">
+
+
+                <!-- PRODUCT 1 -->
+                <div class="col-lg-4 col-md-6 product-item" data-category="chocolate" data-name="Chocolate Ice Cream">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Chocolate Ice Cream_flg.jpg" alt="Chocolate Ice Cream">
+                            <span class="sale-badge">
+                                Popular
+                            </span>
+                        </div>
+
+                        <div class="product-content">
+                            <h3>
+                                Chocolate Ice Cream
+                            </h3>
+
+                            <p>
+                                Rich creamy chocolate
+                                flavour for chocolate lovers.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    ₹180
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <div class="col-lg-4 col-md-6 product-item" data-category="fruit" data-name="Strawberry Ice Cream">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Strawberry Ice Cream_flg.jpg" alt="Strawberry Ice Cream">
+                        </div>
+
+
+                        <div class="product-content">
+                            <h3>
+                                Strawberry Ice Cream
+                            </h3>
+
+                            <p>
+                                Fresh strawberry flavour
+                                with creamy texture.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    ₹160
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <div class="col-lg-4 col-md-6 product-item" data-category="special" data-name="Vanilla Ice Cream">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Vanilla Ice Cream_flg.jpg" alt="Vanilla Ice Cream">
+                        </div>
+
+
+                        <div class="product-content">
+                            <h3>
+                                Vanilla Ice Cream
+                            </h3>
+
+                            <p>
+                                Classic smooth vanilla
+                                flavour with creamy taste.
+                            </p>
+
+                            <div class="product-bottom">
+                                <strong>
+                                    ₹140
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- PRODUCT 4 -->
+
+                <div class="col-lg-4 col-md-6 product-item" data-category="fruit" data-name="Mango Ice Cream">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Mango Ice Cream_flg.jpg" alt="Mango Ice Cream">
+                            <span class="sale-badge">
+                                Fresh
+                            </span>
+                        </div>
+
+
+                        <div class="product-content">
+                            <h3>
+                                Mango Ice Cream
+                            </h3>
+
+                            <p>
+                                Sweet mango flavour
+                                perfect for summer.
+                            </p>
+
+                            <div class="product-bottom">
+
+                                <strong>
+                                    ₹170
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- PRODUCT 5 -->
+
+                <div class="col-lg-4 col-md-6 product-item" data-category="special" data-name="Butterscotch Ice Cream">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Butterscotch Ice Cream_flg.jpg" alt="Butterscotch Ice Cream">
+                        </div>
+                        <div class="product-content">
+                            <h3>
+                                Butterscotch
+                            </h3>
+
+                            <p>
+                                Crunchy butterscotch
+                                with creamy ice cream.
+                            </p>
+
+                            <div class="product-bottom">
+                                <strong>
+                                    ₹190
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- PRODUCT 6 -->
+
+                <div class="col-lg-4 col-md-6 product-item" data-category="special" data-name="Kesar Kulfi">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="./Assets/Kesar Kulfi_flg.jpg" alt="Kesar Kulfi">
+
+                            <span class="sale-badge">
+                                Special
+                            </span>
+                        </div>
+
+
+                        <div class="product-content">
+                            <h3>
+                                Kesar Kulfi
+                            </h3>
+
+                            <p>
+                                Traditional Indian kulfi
+                                with kesar flavour.
+                            </p>
+
+                            <div class="product-bottom">
+                                <strong>
+                                    ₹120
+                                </strong>
+
+                                <button type="button" class="add-btn">
+                                    Add to Cart
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- NO RESULT -->
+            <div id="noResult">
+                <i class="fa-solid fa-face-sad-tear"></i>
+                <h4>
+                    No Ice Cream Found
+                </h4>
+
+                <p>
+                    Try another flavour or search.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT  -->
+    <section id="contact" class="contact-section">
+        <div class="container text-center">
+            <span>
+                HAVE A QUESTION?
+            </span>
+            <h2>
+                We Are Here For You
+            </h2>
+            <button type="button" class="contact-btn" id="contactBtn">
+                Contact Us
+            </button>
+        </div>
+    </section>
+
+
+    <!-- ================= FOTTER SECTION =============== -->
+    <!-- Smal Content -->
+    <section class="welcome-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <span class="small-title">
+                        Welcome To Sweet Cream
+                    </span>
+
+                    <h1>
+                        The Best Ice-Cream
+                        Shop For Sweet Moments
+                    </h1>
+
+                    <p>
+                        Enjoy creamy, delicious and freshly prepared
+                        ice-cream made with premium ingredients.
+                        Sweet Cream brings happiness to every scoop.
+                    </p>
+
+                    <a href="shop.html" class="btn shop-btn">
+                        Explore Our Ice-Cream
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="ice-image">
+                        <img src="Assets/footer-icecream.jpg" alt="Sweet Cream Ice Cream">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Fotter -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="row g-5">
+
+                <!-- ABOUT -->
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about">
+                        <a href="index.html" class="footer-logo">
+                            <i class="fa-solid fa-ice-cream"></i>
+                            Sweet Cream
+                        </a>
+
+
+                        <p>
+                            Welcome to Sweet Cream, your favourite
+                            destination for fresh, creamy and delicious
+                            ice-cream. We create every flavour with
+                            quality ingredients and lots of love.
+                        </p>
+
+
+                        <div class="footer-social">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- QUICK LINKS -->
+
+                <div class="col-lg-2 col-md-6">
+                    <h4 class="footer-title">
+                        Quick Links
+                    </h4>
+
+
+                    <ul class="footer-links">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="shop.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                Shop
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                Flavours
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="blogs.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                Blogs
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                <i class="fa-solid fa-angle-right"></i>
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+
+                <!-- POPULAR FLAVOURS -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">
+                        Popular Flavours
+                    </h4>
+
+
+                    <ul class="footer-links">
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Chocolate
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Vanilla
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Strawberry
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Mango
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Kesar Pista
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="flavours.html">
+                                <i class="fa-solid fa-ice-cream"></i>
+                                Butterscotch
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!-- CONTACT -->
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="footer-title">
+                        Contact Us
+                    </h4>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <p>
+                            25 Street,<br>
+                            North Western Europe
+                        </p>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <p>
+                            +44 02145-56458
+                        </p>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <p>
+                            @mail.co.uk
+                        </p>
+                    </div>
+
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <p>
+                            Mon - Sun<br>
+                            11:00 AM - 11:00 PM
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- NEWSLETTER -->
+
+            <div class="newsletter-box">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-6">
+                        <div class="newsletter-content">
+                            <i class="fa-solid fa-bell"></i>
+                            <div>
+                                <h3>
+                                    Get Sweet Updates
+                                </h3>
+                                <p>
+                                    Subscribe for new flavours,
+                                    special offers and delicious news.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="subscribe-form">
+                            <input type="email" id="emailInput" placeholder="Enter your email">
+                            <button id="subscribeBtn">
+                                Subscribe
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Fotter -->
+            <div class="footer-bottom">
+                <p>
+                    © 2026
+                    <span>Sweet Cream</span>.
+                    All Rights Reserved.
+                </p>
+
+
+                <div class="bottom-links">
+                    <a href="#">
+                        Privacy Policy
+                    </a>
+                    <a href="#">
+                        Terms & Conditions
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- Custom JS -->
+    <script src="Ice-cream.js"></script>
+</body>
+
+</html>
